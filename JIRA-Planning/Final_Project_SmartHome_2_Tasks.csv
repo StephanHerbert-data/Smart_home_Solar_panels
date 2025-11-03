@@ -1,0 +1,21 @@
+Summary,Issue Type,Parent,Labels,Priority,Start Date,Due Date,Description
+Import dataset and libraries,Task,SH-1,setup,Medium,22/10/2025,22/10/2025,Load the Smart Home dataset (CSV) and import the required Python libraries.
+API weather data,Task,SH-1,setup,Medium,22/10/2025,22/10/2025,Search + load weather data from API with Python
+Explore dataset + overview,Task,SH-1,understanding,Medium,22/10/2025,23/10/2025,"Check data shape, columns, datatypes, and missing values."
+Dummy dashboards,Task,SH-1,understanding,High,23/10/2025,25/10/2025,Understand data set + first insights with quick&dirty visualizations in PowerBI + Python
+Define hypotheses + storyline,Task,SH-1,storytelling,High,23/10/2025,25/10/2025,"Define storyline + main analyzes + 3-5 analytical questions, e.g. influence factors on solar energy + autarky"
+Handle missing values + outliers,Task,SH-2,cleaning,Medium,25/10/2025,25/10/2025,"Detect and replace or remove missing entries (e.g., null battery levels)."
+Format columns and datatypes,Task,SH-2,cleaning,Medium,25/10/2025,26/10/2025,"Ensure consistent formats for dates, numbers, and coordinates."
+Feature engineering,Task,SH-2,cleaning,Medium,25/10/2025,26/10/2025,"Create derived columns (day_of_week, time_of_day, trip_category)."
+Exploratory statistics and financial KPI's,Task,SH-3,eda,High,26/10/2025,27/10/2025,Perform calculations to understand trends and distributions + get financial KPI's
+Build dashboard (Power BI / Python),Task,SH-3,visualization,High,27/10/2025,29/10/2025,PowerBI-dashboards + DAX-measures 
+Prepare interim presentation slides,Task,SH-3,presentation,High,27/10/2025,30/10/2025,Create main pages (project overview + myself + hypothesis + main results)
+Picture (Stakeholder) with AI-tool,Task,SH-3,presentation,Medium,29/10/2025,30/10/2025,Create comic-like stakeholder + different pictures
+Interim presentation,Task,SH-3,delivery,High,31/10/2025,31/10/2025,Present interim presentation to teacher + class
+Deep-dive analysis,Task,SH-4,eda,Medium,01/11/2025,01/11/2025,Conduct advanced analyses based on feedback
+Refine dashboards and visuals,Task,SH-4,visualization,Medium,01/11/2025,02/11/2025,"Improve KPIs, layout, colors, and readability of charts and dashboards."
+Refine stakeholder narrative,Task,SH-4,storytelling,Medium,01/11/2025,02/11/2025,Refine story and recommendations relevant to stakeholder
+Finalize slides and design,Task,SH-4,presentation,High,03/11/2025,03/11/2025,Integrate feedback from the interim review + dry-runs (15 mins)
+Final presentation,Task,SH-5,delivery,High,04/11/2025,04/11/2025,Present final presentation to bootcamp + guests
+Upload final deliverables to bootcamp,Task,SH-5,delivery,High,05/11/2025,06/11/2025,Submit your final presentation and datasets to bootcamp
+Portfolio / GitHub,Task,SH-5,delivery,High,05/11/2025,06/11/2025,Create portfolio in GitHub + Notion page
