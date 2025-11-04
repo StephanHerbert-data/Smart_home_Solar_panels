@@ -201,15 +201,16 @@ def kpis(df: pd.DataFrame) -> Dict[str, Optional[float]]:
 # Streamlit UI
 # =============================
 st.set_page_config(page_title="PV Payback (battery loss %, base fee, unified axes)", layout="wide")
-st.title("☀️ PV Payback: Baseline vs Optimized")
+st.title("☀️ PV Payback: Baseline vs Optimized grid prices")
 
 # Description with paragraphs
 st.markdown(
-    "This app compares **two scenarios (Baseline vs. Optimized)** for a residential PV system. "
+    "This app compares **two scenarios (Baseline vs. Optimized)** for a residential PV system. Please change the 2 **grid prices** accordingly. \n\n"
     "It computes annual savings, cumulative cashflows, payback, annual user costs, and exported energy over time.\n\n"
-    "**Enter** PV production (with degradation), imported and consumed energy, battery loss (%), energy prices "
-    "(with escalation), maintenance & inverter costs, and optionally a contract **base fee**.\n\n "
-    "**Exported energy** is derived from the energy balance and clipped to [0, PV]."
+    "**Exported energy** is derived from the energy balance and clipped to [0, PV].\n\n "
+    "**Please enter** PV production (with degradation), imported and consumed energy, battery loss (%), energy prices "
+    "(with escalation), maintenance & inverter costs, and optionally a contract base fee."
+    
 )
 
 # Sidebar inputs
@@ -232,8 +233,8 @@ with st.sidebar:
 
     st.markdown("---")
     st.header("Prices")
-    base_grid_price = st.number_input("Baseline grid price (EUR/kWh)", value=0.40, min_value=0.0, step=0.01, format="%.3f")
-    opt_grid_price = st.number_input("Optimized grid price (EUR/kWh)", value=0.32, min_value=0.0, step=0.01, format="%.3f")
+    base_grid_price = st.number_input("Baseline grid price (EUR/kWh)", value=0.40, min_value=0.0, step=0.01, format="%.2f")
+    opt_grid_price = st.number_input("Optimized grid price (EUR/kWh)", value=0.32, min_value=0.0, step=0.01, format="%.2f")
     feedin = st.number_input("Feed-in tariff (EUR/kWh, constant)", value=0.082, min_value=0.0, step=0.005, format="%.3f")
     price_escalation_enable = st.checkbox("Add price escalation", value=False)
     grid_escal = 0.0
