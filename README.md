@@ -1,4 +1,4 @@
-<img width="1697" height="152" alt="image" src="https://github.com/user-attachments/assets/27e5d4c5-6637-46c9-b4c1-c5e5fac1f419" /># 🏠 Smart Home Energy Analysis
+# 🏠 Smart Home Energy Analysis
 **Data Analytics Final Project – Green Bootcamp 2025**
 
 ## 📘 Project Overview
