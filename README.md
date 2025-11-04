@@ -107,7 +107,7 @@ SmartHomeAnalysis/
 ---
 
 ## 🧑‍💻 Author
-**[Your Name]**  
+**Stephan Herbert**  
 Data Analyst | Power BI & Python Enthusiast  
-📍 Based in Germany  
-🔗 [LinkedIn Profile](#)
+📍 Based in Frankfurt am Main  
+🔗 [https://www.linkedin.com/in/stephan-herbert-4436a4262/](url)
