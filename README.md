@@ -1,16 +1,16 @@
-# 🏠 Smart Home Energy Analysis
+<img width="1697" height="152" alt="image" src="https://github.com/user-attachments/assets/27e5d4c5-6637-46c9-b4c1-c5e5fac1f419" /># 🏠 Smart Home Energy Analysis
 **Data Analytics Final Project – Green Bootcamp 2025**
 
 ## 📘 Project Overview
 This project analyzes **real-world smart home energy data** from a private household equipped with **solar panels and a battery system**.  
-The goal is to identify **patterns, inefficiencies, and optimization opportunities** that can improve energy autonomy and financial return on investment.
+The goal is to identify **patterns, influence factors, and optimization opportunities** that can improve energy autonomy and financial return on investment.
 
-The analysis combines **energy production and consumption data**, **financial data**, and **weather information** from an API to validate several hypotheses about system behavior, efficiency, and amortization.
+The analysis combines **energy production and consumption data**, **financial data**, and **weather information** from an API (OpenMeteo) to validate several hypotheses about system behavior, efficiency, and amortization.
 
 ---
 
 ## 🎯 Objectives
-- Understand the key drivers of energy consumption and production.  
+- Understand the key drivers of energy production and consumption.  
 - Analyze the impact of weather and seasonality on solar generation.  
 - Evaluate system autonomy (self-sufficiency) over time.  
 - Estimate the **payback period** and simulate optimization scenarios.  
@@ -19,7 +19,7 @@ The analysis combines **energy production and consumption data**, **financial da
 ---
 
 ## 👤 Stakeholder
-**Jürgen**, a retired engineer and technology enthusiast, owns the smart home system analyzed in this project.  
+**Jürgen** - a friend of mine - is a retired engineer and technology enthusiast, owns the smart home system analyzed in this project.  
 He seeks insights into how to **optimize his setup** to reduce grid dependency and improve the **financial performance** of his solar installation.
 
 ---
@@ -27,7 +27,7 @@ He seeks insights into how to **optimize his setup** to reduce grid dependency a
 ## 🧩 Data Sources
 | Source | Description | Format |
 |--------|--------------|---------|
-| Smart Home Energy Data | PV generation, battery usage, household consumption | CSV |
+| Smart Home Energy Data | PV generation, import / export, household consumption, heating | CSV |
 | Financial Data | Installation cost, energy tariffs, feed-in tariffs | CSV |
 | Weather Data | Temperature, precipitation, cloud cover (via Open-Meteo API) | JSON |
 
@@ -38,7 +38,7 @@ He seeks insights into how to **optimize his setup** to reduce grid dependency a
 2. Seasonal effects have a stronger influence on solar production than daily weather.  
 3. Full self-sufficiency is achieved only in Q2 and Q3.  
 4. The amortization period exceeds 15 years under current conditions.  
-5. Increasing PV area or battery capacity can reduce payback time by max. 2 years.
+5. Increasing PV area or battery capacity can reduce payback time by max. 1 years.
 
 ---
 
@@ -49,23 +49,23 @@ He seeks insights into how to **optimize his setup** to reduce grid dependency a
 | **Power BI** | Interactive dashboards and KPI visualization |
 | **Streamlit** | Prototype for simulation of amortization scenarios |
 | **JIRA** | Project planning and task tracking |
-| **Gamma** | Final presentation design |
+| **Gamma + PowerPoint** | Final presentation design |
 
 ---
 
 ## 📊 Key Insights (Examples)
-- Heating data showed sporadic usage at mild temperatures → potential savings identified.  
-- Seasonal trends dominated PV production; daily weather had secondary effects.  
-- Self-sufficiency reached > 80 % between April–August; drops sharply in winter months.  
-- Current payback time ≈ 16–17 years; adding more PV capacity yields diminishing returns.
+1. Heating data showed sporadic usage at mild temperatures → potential savings identified.  
+2. Seasonal trends dominated PV production; daily weather had secondary effects.  
+3. Self-sufficiency reached in all months except Dec + Jan; drops sharply in winter months.  
+4. Current payback time ≈ 16–17 years, mainly driven by import costs.
 
 ---
 
 ## 💡 Recommendations
-- Optimize heating schedules using temperature thresholds.  
-- Consider **battery management** and **load-shifting** to increase self-consumption.  
-- Regularly review weather impact on PV performance to identify anomalies.  
-- Explore **smart automation** strategies for energy-intensive devices.
+- Monitor heating patterns during spring / fall  
+- Implement data validation checks [NaN values]
+- Evaluate electricity contracts regularly to reduce yearly costs for import
+
 
 ---
 
