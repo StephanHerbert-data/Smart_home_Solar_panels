@@ -1,5 +1,5 @@
 # 🏠 Smart Home Energy Analysis
-**Data Analytics Final Project – Green Bootcamp 2025**
+**Data Analytics Final Project – Greenbootcamps 11/2025**
 
 ## 📘 Project Overview
 This project analyzes **real-world smart home energy data** from a private household equipped with **solar panels and a battery system**.  
@@ -17,6 +17,14 @@ The analysis combines **energy production and consumption data**, **financial da
 - Provide **clear, data-driven recommendations** to the stakeholder.
 
 ---
+## 📊 Deliveries
+- Interactive PowerBI dashboard with 5 subcharts (influence factors on solar energy + energy flows).  
+- Interactive Streamlit app (influence factors on armortization time)
+- Detailed PowerPoint presentation (-> Final project for my BOOTCAMP at Greenbootcamps)
+<img width="792" height="263" alt="image" src="https://github.com/user-attachments/assets/94873f02-9213-4683-9700-25798bc0a462" />
+
+<img width="808" height="458" alt="image" src="https://github.com/user-attachments/assets/54b922c5-f6c7-455a-9242-4a6f1a8ee077" />
+
 
 ## 👤 Stakeholder
 **Jürgen** - a friend of mine - is a retired engineer and technology enthusiast, owns the smart home system analyzed in this project.  
