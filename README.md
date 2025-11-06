@@ -86,26 +86,33 @@ He seeks insights into how to **optimize his setup** to reduce grid dependency a
 SmartHomeAnalysis/
 │
 ├── data/
-│   ├── _Raw
-│   ├── Python_aggregations
-│   └── Weather
+│   ├── A_Energy/
+│   ├── C_Heating/
+│   ├── Python_aggregations/
+│   └── Weather/
 │
 ├── Python_Notebooks/
-│   ├── 01_EDA.ipynb
-│   ├── 02_Hypothesis_Tests.ipynb
-│   └── 03_Model_Payback.ipynb
-│
-├── Streamlit_Amortization/
-│   └── app.py
+│   ├── Smart_home_Analysis_1__Data_cleaning.ipynb
+│   └── Smart_home_Analysis_2__Calculations.ipynb
 │
 ├── PowerBI/
 │   └── Dashboard_Solar-energy-and-weather.pbix
 │   └── Wireframe for Dashboard.pptx
 │   └── Background/
 │
+├── Streamlit_Amortization/
+│   ├── requirements.txt
+│   └── app.py
+│
+├── Weather_API_Open-Meteo/
+│   ├── Open_meteo_Eschborn_daily_ETL_classifikation.py
+│   └── WMO Weather interpretation codes.png
+│
 ├── Presentation/
 │   └── Smart-Home-Data-with-Solar-Panels__Stephan-Herbert.pptx
 │
+├── requirements.in
+├── requirements.txt
 └── README.md
 ```
 
