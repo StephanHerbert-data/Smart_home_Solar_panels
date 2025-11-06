@@ -17,14 +17,18 @@ The analysis combines **energy production and consumption data**, **financial da
 - Provide **clear, data-driven recommendations** to the stakeholder.
 
 ---
+
 ## 📊 Deliveries
-- Interactive PowerBI dashboard with 5 subcharts (influence factors on solar energy + energy flows).  
-- Interactive Streamlit app (influence factors on armortization time)
-- Detailed PowerPoint presentation (-> Final project for my BOOTCAMP at Greenbootcamps)
+- Interactive PowerBI dashboard with 5 subcharts (influence factors on solar energy + energy flows)   --> [Link to folder](https://github.com/StephanHerbert-data/Smart_home_Solar_panels/tree/main/PowerBI)
+- Interactive Streamlit app (influence factors on armortization time)  --> [Link to folder](https://github.com/StephanHerbert-data/Smart_home_Solar_panels/tree/main/Streamlit_Amortization)
+- Detailed PowerPoint presentation (-> Final project for my BOOTCAMP at Greenbootcamps)  --> [Link to folder](https://github.com/StephanHerbert-data/Smart_home_Solar_panels/tree/main/Presentation)
+  
 <img width="792" height="263" alt="image" src="https://github.com/user-attachments/assets/94873f02-9213-4683-9700-25798bc0a462" />
 
 <img width="808" height="458" alt="image" src="https://github.com/user-attachments/assets/54b922c5-f6c7-455a-9242-4a6f1a8ee077" />
 
+
+---
 
 ## 👤 Stakeholder
 **Jürgen** - a friend of mine - is a retired engineer and technology enthusiast, owns the smart home system analyzed in this project.  
