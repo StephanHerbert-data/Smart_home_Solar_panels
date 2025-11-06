@@ -3,6 +3,8 @@
 A **Streamlit web app** that analyzes the **financial payback** of a real smart home system with solar panels.  
 The tool helps homeowners simulate how long it takes for their solar investment to pay off — based on real data and adjustable parameters.
 
+LINK: https://solar-panels-amortization.streamlit.app/
+
 ## 💡 Features
 - **Interactive Amortization time Calculator:** Estimate the payback period of a solar system under different financial conditions.  
 - **Adjustable Parameters:**  
