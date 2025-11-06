@@ -17,6 +17,11 @@ The tool helps homeowners simulate how long it takes for their solar investment 
   - Grid Price  
 - **Visual Analysis:** Dynamic charts comparing **baseline vs. optimized scenarios**.
 
+<img width="1215" height="519" alt="image" src="https://github.com/user-attachments/assets/578a95ed-fec7-4444-b65e-3bf08d729a78" />
+
+
+<img width="1215" height="527" alt="image" src="https://github.com/user-attachments/assets/4eedd2d1-dba4-4d99-b193-1332253f8714" />
+
 ## ⚙️ Tech Stack
 - **Python** (Pandas, NumPy, Altair)  
 - **Streamlit** for the interactive dashboard  
@@ -32,8 +37,5 @@ streamlit run app.py
 
 
 
-<img width="1215" height="519" alt="image" src="https://github.com/user-attachments/assets/578a95ed-fec7-4444-b65e-3bf08d729a78" />
 
-
-<img width="1215" height="527" alt="image" src="https://github.com/user-attachments/assets/4eedd2d1-dba4-4d99-b193-1332253f8714" />
 
