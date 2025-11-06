@@ -218,23 +218,23 @@ with st.sidebar:
     st.header("General Parameters")
     start_year = st.number_input("Start year (commissioning)", value=2023, step=1)
     horizon = st.slider("Horizon (years)", min_value=10, max_value=25, value=20, step=1)
-    capex = st.number_input("Initial invest (EUR)", value=19000.0, min_value=0.0, step=500.0, format="%.2f")
+    capex = st.number_input("Initial invest (EUR)", value=20000.0, min_value=0.0, step=500.0, format="%.2f")
 
     st.markdown("---")
     st.header("PV & Energy Flows")
-    pv_y1 = st.number_input("PV production in Year 1 (kWh)", value=6000.0, min_value=0.0, step=100.0)
+    pv_y1 = st.number_input("PV production in Year 1 (kWh)", value=7000.0, min_value=0.0, step=100.0)
     degr_pct = st.number_input("PV degradation per year (%)", value=0.5, min_value=0.0, max_value=5.0, step=0.1, format="%.1f")
     degr = degr_pct / 100.0
 
-    imported_kwh = st.number_input("Imported energy (kWh/yr)", value=1200.0, min_value=0.0, step=100.0)
-    consumed_kwh = st.number_input("Consumed energy (kWh/yr)", value=3500.0, min_value=0.0, step=100.0)
+    imported_kwh = st.number_input("Imported energy (kWh/yr)", value=1600.0, min_value=0.0, step=100.0)
+    consumed_kwh = st.number_input("Consumed energy (kWh/yr)", value=4000.0, min_value=0.0, step=100.0)
     battery_loss_pct = st.number_input("Battery loss (%)", value=7.0, min_value=0.0, max_value=50.0, step=0.5, format="%.1f")
     battery_loss_rate = battery_loss_pct / 100.0
 
     st.markdown("---")
     st.header("Prices")
-    base_grid_price = st.number_input("Baseline grid price (EUR/kWh)", value=0.40, min_value=0.0, step=0.01, format="%.2f")
-    opt_grid_price = st.number_input("Optimized grid price (EUR/kWh)", value=0.32, min_value=0.0, step=0.01, format="%.2f")
+    base_grid_price = st.number_input("Baseline grid price (EUR/kWh)", value=0.41, min_value=0.0, step=0.01, format="%.2f")
+    opt_grid_price = st.number_input("Optimized grid price (EUR/kWh)", value=0.33, min_value=0.0, step=0.01, format="%.2f")
     feedin = st.number_input("Feed-in tariff (EUR/kWh, constant)", value=0.082, min_value=0.0, step=0.005, format="%.3f")
     price_escalation_enable = st.checkbox("Add price escalation", value=False)
     grid_escal = 0.0
@@ -246,7 +246,7 @@ with st.sidebar:
     include_base_fee = st.checkbox("Include base fee", value=False)
     base_fee = 0.0
     if include_base_fee:
-        base_fee = st.number_input("Base fee (EUR/year)", value=154.0, min_value=0.0, step=5.0, format="%.2f")
+        base_fee = st.number_input("Base fee (EUR/year)", value=149, min_value=0.0, step=5.0, format="%.2f")
 
     st.markdown("---")
     st.header("Costs")
